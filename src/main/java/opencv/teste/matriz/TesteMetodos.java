@@ -22,6 +22,7 @@ public class TesteMetodos {
 
 		Mat imagem = Highgui.imread("/home/danilo/Imagens/darth.jpg");
 		Mat dest = imagem.clone();
+		
 
 		Imgproc.medianBlur(imagem, dest, 15);
 		
